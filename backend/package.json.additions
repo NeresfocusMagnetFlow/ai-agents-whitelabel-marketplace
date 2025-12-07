@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "test": "jest --detectOpenHandles"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": ["/node_modules/"]
+  }
+}
